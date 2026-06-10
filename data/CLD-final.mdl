@@ -1,0 +1,431 @@
+{UTF-8}
+Average LOS  = A FUNCTION OF( Discharge Planning Quality,"Funding for Community Care/Services"\
+		,Hospital Efficiency Mandates,Pressure for Cost Containment)
+	~	
+	~		|
+
+Discharge Planning Quality  = A FUNCTION OF( Average LOS,Funding for Quality Improvement\
+		,"Medical Error Rate (Care Quality)",Pressure for Cost Containment)
+	~	
+	~		|
+
+Unmet ADL needs  = A FUNCTION OF( "Funding for Community Care/Services")
+	~	
+	~		|
+
+Premature Discharge Risk  = A FUNCTION OF( Discharge Planning Quality,Clinical Stability\
+		,Unmet ADL needs)
+	~	
+	~		|
+
+Hospital Admissions  = A FUNCTION OF( "30-Day Readmission Rate",Hospital Capacity strain\
+		,Population Growth Rate,"Proportion of High-Risk Elderly Patients (Aging population)"\
+		)
+	~	
+	~		|
+
+Patients Satisfaction  = A FUNCTION OF( "30-Day Readmission Rate",Discharge Planning Quality\
+		,Hospital Admissions)
+	~	
+	~		|
+
+Early Detection Rate  = A FUNCTION OF( "Post-Discharge Follow-up Quality")
+	~	
+	~		|
+
+Staffing Levels  = A FUNCTION OF( Pressure for Cost Containment,Workload)
+	~	
+	~		|
+
+Hospital Operating Costs  = A FUNCTION OF( "30-Day Readmission Rate",Average LOS,Hospital Admissions\
+		)
+	~	
+	~		|
+
+Pressure for Cost Containment  = A FUNCTION OF( Hospital Budget Pressure,Hospital Operating Costs\
+		)
+	~	
+	~		|
+
+Hospital Budget Allocation  = A FUNCTION OF( "Health Expenditure (GDP-Percent)")
+	~	
+	~		|
+
+Hospital Budget Pressure  = A FUNCTION OF( Hospital Admissions,Hospital Budget Allocation\
+		,Hospital Operating Costs)
+	~	
+	~		|
+
+Hospital Capacity strain  = A FUNCTION OF( Hospital Budget Allocation)
+	~	
+	~		|
+
+Funding for Quality Improvement  = A FUNCTION OF( Policy Attention to Readmission,Policy Support for Quality\
+		)
+	~	
+	~		|
+
+Hospital Efficiency Mandates  = A FUNCTION OF( Hospital Budget Pressure,Hospital Operating Costs\
+		)
+	~	
+	~		|
+
+"30-Day Readmission Rate"  = A FUNCTION OF( Complications,Early Detection Rate,Medication Reconciliation Accuracy\
+		,Patient Clinical Risk Profile,Premature Discharge Risk)
+	~	
+	~		|
+
+"Access to Primary/Outpatient Care"  = A FUNCTION OF( Area Deprivation,Municipal Investment\
+		)
+	~	
+	~		|
+
+Municipal Investment  = A FUNCTION OF( "Health Expenditure (GDP-Percent)")
+	~	
+	~		|
+
+Pressure for Early Discharge  = A FUNCTION OF( Average LOS,Hospital Capacity strain)
+	~	
+	~		|
+
+Post Discharge Care Needs  = A FUNCTION OF( Pressure for Early Discharge)
+	~	
+	~		|
+
+Clinical Stability  = A FUNCTION OF( Pressure for Early Discharge)
+	~	
+	~		|
+
+Medication Reconciliation Accuracy  = A FUNCTION OF( Continuity of Care)
+	~	
+	~		|
+
+"Post-Discharge Follow-up Quality"  = A FUNCTION OF( "Access to Primary/Outpatient Care"\
+		,Continuity of Care,"Funding for Community Care/Services",Care Gaps)
+	~	
+	~		|
+
+"Post-Discharge self-management"  = A FUNCTION OF( "Socio-economic Vulnerability")
+	~	
+	~		|
+
+"Cognitive Impairment/Status"  = A FUNCTION OF( "Proportion of High-Risk Elderly Patients (Aging population)"\
+		)
+	~	
+	~		|
+
+Comorbidities  = A FUNCTION OF( "Proportion of High-Risk Elderly Patients (Aging population)"\
+		)
+	~	
+	~		|
+
+Complications  = A FUNCTION OF( Medication Adherence,"Post-Discharge self-management"\
+		)
+	~	
+	~		|
+
+"Proportion of High-Risk Elderly Patients (Aging population)"  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Severity of Illness/Acuity of Admission"  = A FUNCTION OF( "Proportion of High-Risk Elderly Patients (Aging population)"\
+		)
+	~	
+	~		|
+
+"Emergency Department Visits/Prior Hospitalization"  = A FUNCTION OF( "Proportion of High-Risk Elderly Patients (Aging population)"\
+		)
+	~	
+	~		|
+
+Patient Clinical Risk Profile  = A FUNCTION OF( "Cognitive Impairment/Status",Comorbidities\
+		,"Emergency Department Visits/Prior Hospitalization","Frailty/Functional Status","Severity of Illness/Acuity of Admission"\
+		)
+	~	
+	~		|
+
+"Frailty/Functional Status"  = A FUNCTION OF( "Proportion of High-Risk Elderly Patients (Aging population)"\
+		)
+	~	
+	~		|
+
+"Medical Error Rate (Care Quality)"  = A FUNCTION OF( Workload)
+	~	
+	~		|
+
+"Municipal Care Burden/Workload"  = A FUNCTION OF( Post Discharge Care Needs)
+	~	
+	~		|
+
+Care Gaps  = A FUNCTION OF( "Municipal Care Burden/Workload")
+	~	
+	~		|
+
+Net Migration Inflow  = A FUNCTION OF( )
+	~	
+	~		|
+
+Continuity of Care  = A FUNCTION OF( Discharge Planning Quality)
+	~	
+	~		|
+
+Policy Support for Quality  = A FUNCTION OF( Patients Satisfaction)
+	~	
+	~		|
+
+"Health Expenditure (GDP-Percent)"  = A FUNCTION OF( )
+	~	
+	~		|
+
+Population Growth Rate  = A FUNCTION OF( Net Migration Inflow)
+	~	
+	~		|
+
+Workload  = A FUNCTION OF( Hospital Admissions,Staffing Levels)
+	~	
+	~		|
+
+Medication Adherence  = A FUNCTION OF( "Socio-economic Vulnerability")
+	~	
+	~		|
+
+"Patient Education/Health Literacy"  = A FUNCTION OF( )
+	~	
+	~		|
+
+Financial Strain  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Funding for Community Care/Services"  = A FUNCTION OF( Policy Attention to Readmission\
+		)
+	~	
+	~		|
+
+"Socio-economic Vulnerability"  = A FUNCTION OF( "Patient Education/Health Literacy",\
+		Financial Strain)
+	~	
+	~		|
+
+Area Deprivation  = A FUNCTION OF( )
+	~	
+	~		|
+
+Policy Attention to Readmission  = A FUNCTION OF( "30-Day Readmission Rate")
+	~	
+	~		|
+
+R 1  = A FUNCTION OF( )
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-0|255-255-255|-1--1--1|96,96,65,0
+10,1,Hospital Efficiency Mandates,1233,244,65,30,8,3,0,40,0,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,2,Average LOS,1378,314,54,26,8,3,0,40,0,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,3,1,2,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1353,257)|
+10,4,Hospital Operating Costs,1218,376,74,17,8,3,0,42,0,1,0,0,0-0-0,0-0-0,Arial|14|B|0-0-0,0,0,0,0,0,0
+1,5,2,4,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1359,363)|
+1,6,4,1,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1122,335)|
+10,7,Pressure for Early Discharge,1222,97,64,22,8,3,0,42,0,1,0,0,0-0-0,0-0-0,Arial|14|B|0-0-0,0,0,0,0,0,0
+10,8,Premature Discharge Risk,1516,253,66,26,8,3,0,42,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,9,"30-Day Readmission Rate",1399,470,68,32,3,3,0,63,-1,1,0,0,255-255-255,255-255-255,Arial|16|B|0-128-255,0,0,0,0,0,0
+1,10,9,4,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1276,478)|
+1,11,8,9,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1420,353)|
+10,12,Pressure for Cost Containment,1411,668,57,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14|B|0-0-0,0,0,0,0,0,0
+1,13,4,12,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1168,555)|
+10,14,Discharge Planning Quality,1664,419,62,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14|B|0-0-0,0,0,0,0,0,0
+1,15,12,14,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1568,583)|
+10,16,Policy Attention to Readmission,1867,507,61,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,17,9,16,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1652,559)|
+10,18,"Funding for Community Care/Services",1796,438,66,21,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,19,16,18,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1867,433)|
+10,20,"Post-Discharge Follow-up Quality",1831,333,65,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14|B|0-0-0,0,0,0,0,0,0
+1,21,18,20,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1787,387)|
+1,22,2,14,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1551,337)|
+10,23,Patient Clinical Risk Profile,1093,757,63,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14|B|0-0-0,0,0,0,0,0,0
+1,24,23,9,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1181,579)|
+10,25,Comorbidities,918,740,62,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,26,"Severity of Illness/Acuity of Admission",892,806,53,30,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,27,25,23,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1017,706)|
+1,28,26,23,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1020,834)|
+10,29,"Frailty/Functional Status",903,655,67,24,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,30,29,23,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1019,644)|
+10,31,"Cognitive Impairment/Status",902,882,55,21,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,32,31,23,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1065,872)|
+10,33,"Emergency Department Visits/Prior Hospitalization",965,957,73,30,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,34,33,23,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1118,890)|
+10,35,"Socio-economic Vulnerability",1318,799,64,35,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14|B|0-0-0,0,0,0,0,0,0
+10,36,Medication Adherence,1473,763,67,30,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,37,Complications,1645,662,56,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,38,36,37,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1525,683)|
+10,39,"Patient Education/Health Literacy",1290,926,65,33,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,40,39,35,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1256,869)|
+10,41,Financial Strain,1423,914,50,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,42,41,35,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1333,872)|
+10,43,Area Deprivation,2128,402,54,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,44,"Access to Primary/Outpatient Care",1998,308,71,33,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,45,Workload,1380,546,46,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,46,Staffing Levels,1252,594,60,21,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,47,Pressure for Cost Containment,1248,162,60,22,8,2,0,43,-1,1,0,0,128-128-128,0-0-0,Arial|14||128-128-128,0,0,0,0,0,0
+1,48,12,46,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1310,645)|
+10,49,"Medical Error Rate (Care Quality)",1468,608,61,30,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,50,46,45,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1294,552)|
+1,51,45,49,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1410,534)|
+1,52,49,14,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1537,468)|
+1,53,44,20,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1897,273)|
+1,54,43,44,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(2104,334)|
+1,55,37,9,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1605,559)|
+10,56,"Health Expenditure (GDP-Percent)",701,377,59,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,57,Hospital Budget Pressure,954,316,62,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,58,14,8,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1632,299)|
+10,59,Patients Satisfaction,1817,747,63,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,60,Policy Support for Quality,1932,661,59,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,61,Funding for Quality Improvement,1803,627,62,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,62,59,60,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1901,732)|
+1,63,60,61,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1882,599)|
+1,64,61,14,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1743,500)|
+1,65,14,59,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1699,585)|
+10,66,"30-Day Readmission Rate",1783,864,60,22,8,2,0,43,-1,1,0,0,128-128-128,0-0-0,Arial|14||128-128-128,0,0,0,0,0,0
+1,67,66,59,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1734,800)|
+10,68,Post Discharge Care Needs,1589,111,64,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,69,"Municipal Care Burden/Workload",1755,131,73,6,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,70,68,69,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1678,67)|
+10,71,Care Gaps,1877,197,58,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,72,69,71,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1841,137)|
+1,73,71,20,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1779,245)|
+10,74,Hospital Capacity strain,1081,168,65,30,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,75,74,7,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1134,110)|
+10,76,Hospital Admissions,1045,559,63,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14|B|0-0-0,0,0,0,0,0,0
+1,77,76,45,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1191,509)|
+1,78,4,57,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1033,411)|
+10,79,Population Growth Rate,867,450,60,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,80,79,76,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(977,467)|
+10,81,Net Migration Inflow,700,505,66,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,82,81,79,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(751,444)|
+10,83,Continuity of Care,2032,546,58,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,84,Discharge Planning Quality,2083,668,65,22,8,2,0,43,-1,1,0,0,128-128-128,0-0-0,Arial|14||128-128-128,0,0,0,0,0,0
+1,85,84,83,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(2090,612)|
+10,86,Medication Reconciliation Accuracy,1952,431,55,33,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,87,83,86,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(2033,482)|
+1,88,86,9,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1664,364)|
+1,89,83,20,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(2019,407)|
+10,90,"Post-Discharge self-management",1524,851,70,27,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,91,90,37,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1636,756)|
+1,92,35,90,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1391,861)|
+10,93,"Proportion of High-Risk Elderly Patients (Aging population)",673,778,87,33,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,94,93,29,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(730,652)|
+1,95,93,25,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(779,678)|
+1,96,93,26,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(792,732)|
+1,97,93,31,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(769,907)|
+1,98,93,33,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(747,935)|
+1,99,2,7,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1422,176)|
+1,100,47,2,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1391,243)|
+1,101,7,68,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1378,25)|
+1,102,93,76,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(782,543)|
+1,103,76,57,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1040,432)|
+10,104,Clinical Stability,1476,126,64,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,105,7,104,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1345,54)|
+1,106,104,8,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1553,184)|
+10,107,Early Detection Rate,1690,200,59,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,108,107,9,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1552,282)|
+10,109,"Health Expenditure (GDP-Percent)",2121,250,63,22,8,2,0,43,-1,1,0,0,128-128-128,0-0-0,Arial|14||128-128-128,0,0,0,0,0,0
+10,110,Municipal Investment,1987,181,46,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,111,109,110,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(2078,184)|
+1,112,110,44,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1967,236)|
+1,113,9,76,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1144,494)|
+1,114,57,1,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1054,224)|
+1,115,35,36,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1352,745)|
+10,116,Hospital Budget Pressure,1214,719,66,26,8,2,0,43,-1,1,0,0,128-128-128,0-0-0,Arial|14||128-128-128,0,0,0,0,0,0
+1,117,116,12,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1352,735)|
+10,118,Hospital Budget Allocation,811,309,62,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,119,56,118,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(713,312)|
+1,120,118,57,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(882,267)|
+1,121,118,74,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(885,196)|
+1,122,16,61,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1821,556)|
+1,123,20,107,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1724,187)|
+1,124,45,46,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1354,592)|
+10,125,Hospital Capacity strain,882,574,80,33,8,2,0,43,-1,1,0,0,128-128-128,0-0-0,Arial|14||128-128-128,0,0,0,0,0,0
+1,126,125,76,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(990,615)|
+1,127,76,4,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1148,407)|
+10,128,Hospital Admissions,1907,861,43,22,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|||128-128-128,0,0,0,0,0,0
+1,129,128,59,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1918,801)|
+1,130,14,2,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1482,396)|
+10,131,"Funding for Community Care/Services",1213,309,49,30,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|||128-128-128,0,0,0,0,0,0
+1,132,131,2,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1284,353)|
+10,133,Unmet ADL needs,1714,299,61,26,8,3,0,40,-1,1,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,134,133,8,1,0,43,0,1,192,0,0-128-0,|||0-0-0,1|(1628,245)|
+1,135,18,133,1,0,45,0,1,192,0,255-128-64,|||0-0-0,1|(1713,373)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 2
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,99,0
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 3
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,100,0
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 4
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,100,0
+///---\\\
+:L<%^E!@
+5:Hospital Efficiency Mandates
+9:Current
+19:65,0
+24:0
+25:0
+26:0
+23:0
+15:0,0,0,0,0,0
+27:0,
+34:16,
+42:0
+72:0
+73:0
+95:0
+96:0
+97:0
+77:0
+78:0
+102:1
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:
+103:8,8,8,3,8
+105:0,0,0,0,0,0,0,0,0,0
+104:Vensim Sans|12||0-0-0|0-0-0|-1--1--1|0-0-255|192-192-192|-1--1--1

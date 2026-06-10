@@ -1,0 +1,28 @@
+"variable,""n_loops_total"",""n_reinforcing"",""n_balancing"",""share_reinforcing"",""share_balancing"""
+30-Day Readmission Rate,144,94,50,0.652777777777778,0.347222222222222
+Discharge Planning Quality,126,77,49,0.611111111111111,0.388888888888889
+Average LOS,109,62,47,0.568807339449541,0.431192660550459
+Hospital Operating Costs,106,68,38,0.641509433962264,0.358490566037736
+Pressure for Cost Containment,99,59,40,0.595959595959596,0.404040404040404
+Hospital Budget Pressure,76,50,26,0.657894736842105,0.342105263157895
+Hospital Admissions,75,52,23,0.693333333333333,0.306666666666667
+Continuity of Care,62,46,16,0.741935483870968,0.258064516129032
+Premature Discharge Risk,57,36,21,0.631578947368421,0.368421052631579
+Early Detection Rate,56,35,21,0.625,0.375
+Post-Discharge Follow-up Quality,56,35,21,0.625,0.375
+Pressure for Early Discharge,49,25,24,0.510204081632653,0.489795918367347
+Workload,42,20,22,0.476190476190476,0.523809523809524
+Medical Error Rate (Care Quality),41,20,21,0.48780487804878,0.51219512195122
+Staffing Levels,37,17,20,0.459459459459459,0.540540540540541
+Hospital Efficiency Mandates,33,25,8,0.757575757575758,0.242424242424242
+Medication Reconciliation Accuracy,31,23,8,0.741935483870968,0.258064516129032
+Clinical Stability,25,13,12,0.52,0.48
+Care Gaps,24,12,12,0.5,0.5
+Municipal Care Burden/Workload,24,12,12,0.5,0.5
+Post Discharge Care Needs,24,12,12,0.5,0.5
+Policy Attention to Readmission,24,7,17,0.291666666666667,0.708333333333333
+Funding for Community Care/Services,19,5,14,0.263157894736842,0.736842105263158
+Funding for Quality Improvement,15,7,8,0.466666666666667,0.533333333333333
+Patients Satisfaction,10,5,5,0.5,0.5
+Policy Support for Quality,10,5,5,0.5,0.5
+Unmet ADL needs,1,0,1,0,1
